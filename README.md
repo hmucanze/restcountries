@@ -15,3 +15,12 @@ A API está hospedada na **Heroku** e ela permite-nos:
 * Cadastrar um pais [POST]: https://restcountries-api.herokuapp.com/countries
 * Remover um pais específico através do **id** [DELETE]: https://restcountries-api.herokuapp.com/countries/1
 * Ordenar a listagem dos países por uma das propriedades (id, name, capital, area), podendo ser de forma ascendente ou descendente [GET]: https://restcountries-api.herokuapp.com/countries?sort=name,desc
+* Exemplo de cadastro de um pais:
+```
+  {
+    "name": "Chile",
+    "capital": "Santiago",
+    "subRegion": {"id": 9},
+    "area": 750102.0
+  }
+```
